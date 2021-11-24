@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046319E5274D252A00AB5399 /* MentorMateIOSTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046319E4274D252A00AB5399 /* MentorMateIOSTaskApp.swift */; };
+		046319E9274D252E00AB5399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046319E8274D252E00AB5399 /* Assets.xcassets */; };
+		046319EC274D252E00AB5399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046319EB274D252E00AB5399 /* Preview Assets.xcassets */; };
+		046319F6274DA74800AB5399 /* ClosestVenues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046319F5274DA74800AB5399 /* ClosestVenues.swift */; };
+		046319FF274DA79800AB5399 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046319FE274DA79800AB5399 /* AboutUs.swift */; };
+		04631A02274DA7D200AB5399 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A01274DA7D200AB5399 /* AppView.swift */; };
+		04631A0E274DAE3E00AB5399 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A0D274DAE3E00AB5399 /* NetworkLayer.swift */; };
+		04631A12274DAE5300AB5399 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A11274DAE5300AB5399 /* NetworkRouter.swift */; };
+		04631A17274DB87E00AB5399 /* ClosestVenuesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A16274DB87E00AB5399 /* ClosestVenuesResponse.swift */; };
+		04631A1D274DB90800AB5399 /* ClosestVenuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A1C274DB90800AB5399 /* ClosestVenuesViewModel.swift */; };
+		04631A30274E43A600AB5399 /* CoreDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A2F274E43A500AB5399 /* CoreDataManger.swift */; };
+		04631A35274E441C00AB5399 /* VenueModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04631A33274E441C00AB5399 /* VenueModel.xcdatamodeld */; };
+		04631A3E274E704E00AB5399 /* MentorMateAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04631A3D274E704D00AB5399 /* MentorMateAppError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046319E1274D252A00AB5399 /* MentorMateIOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentorMateIOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046319E4274D252A00AB5399 /* MentorMateIOSTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorMateIOSTaskApp.swift; sourceTree = "<group>"; };
+		046319E8274D252E00AB5399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046319EB274D252E00AB5399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046319ED274D252E00AB5399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046319F5274DA74800AB5399 /* ClosestVenues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestVenues.swift; sourceTree = "<group>"; };
+		046319FE274DA79800AB5399 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		04631A01274DA7D200AB5399 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		04631A0D274DAE3E00AB5399 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		04631A11274DAE5300AB5399 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		04631A16274DB87E00AB5399 /* ClosestVenuesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestVenuesResponse.swift; sourceTree = "<group>"; };
+		04631A1C274DB90800AB5399 /* ClosestVenuesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestVenuesViewModel.swift; sourceTree = "<group>"; };
+		04631A2F274E43A500AB5399 /* CoreDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManger.swift; sourceTree = "<group>"; };
+		04631A34274E441C00AB5399 /* Venue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Venue.xcdatamodel; sourceTree = "<group>"; };
+		04631A3D274E704D00AB5399 /* MentorMateAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorMateAppError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046319DE274D252A00AB5399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046319D8274D252A00AB5399 = {
+			isa = PBXGroup;
+			children = (
+				046319E3274D252A00AB5399 /* MentorMateIOSTask */,
+				046319E2274D252A00AB5399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046319E2274D252A00AB5399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046319E1274D252A00AB5399 /* MentorMateIOSTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046319E3274D252A00AB5399 /* MentorMateIOSTask */ = {
+			isa = PBXGroup;
+			children = (
+				04631A2E274E42C800AB5399 /* Mangers */,
+				04631A1B274DB8E000AB5399 /* ViewModels */,
+				04631A15274DB87100AB5399 /* Models */,
+				04631A0C274DADEB00AB5399 /* NetworkLayer */,
+				046319F4274DA72000AB5399 /* VIews */,
+				046319E4274D252A00AB5399 /* MentorMateIOSTaskApp.swift */,
+				046319E8274D252E00AB5399 /* Assets.xcassets */,
+				046319ED274D252E00AB5399 /* Info.plist */,
+				046319EA274D252E00AB5399 /* Preview Content */,
+				04631A33274E441C00AB5399 /* VenueModel.xcdatamodeld */,
+			);
+			path = MentorMateIOSTask;
+			sourceTree = "<group>";
+		};
+		046319EA274D252E00AB5399 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				046319EB274D252E00AB5399 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		046319F4274DA72000AB5399 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				046319F5274DA74800AB5399 /* ClosestVenues.swift */,
+				046319FE274DA79800AB5399 /* AboutUs.swift */,
+				04631A01274DA7D200AB5399 /* AppView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		04631A0C274DADEB00AB5399 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04631A0D274DAE3E00AB5399 /* NetworkLayer.swift */,
+				04631A11274DAE5300AB5399 /* NetworkRouter.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		04631A15274DB87100AB5399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04631A16274DB87E00AB5399 /* ClosestVenuesResponse.swift */,
+				04631A3D274E704D00AB5399 /* MentorMateAppError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04631A1B274DB8E000AB5399 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04631A1C274DB90800AB5399 /* ClosestVenuesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04631A2E274E42C800AB5399 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				04631A2F274E43A500AB5399 /* CoreDataManger.swift */,
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046319E0274D252A00AB5399 /* MentorMateIOSTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046319F0274D252E00AB5399 /* Build configuration list for PBXNativeTarget "MentorMateIOSTask" */;
+			buildPhases = (
+				046319DD274D252A00AB5399 /* Sources */,
+				046319DE274D252A00AB5399 /* Frameworks */,
+				046319DF274D252A00AB5399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentorMateIOSTask;
+			productName = MentorMateIOSTask;
+			productReference = 046319E1274D252A00AB5399 /* MentorMateIOSTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046319D9274D252A00AB5399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					046319E0274D252A00AB5399 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 046319DC274D252A00AB5399 /* Build configuration list for PBXProject "MentorMateIOSTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046319D8274D252A00AB5399;
+			productRefGroup = 046319E2274D252A00AB5399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046319E0274D252A00AB5399 /* MentorMateIOSTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046319DF274D252A00AB5399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046319EC274D252E00AB5399 /* Preview Assets.xcassets in Resources */,
+				046319E9274D252E00AB5399 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046319DD274D252A00AB5399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046319F6274DA74800AB5399 /* ClosestVenues.swift in Sources */,
+				04631A30274E43A600AB5399 /* CoreDataManger.swift in Sources */,
+				04631A12274DAE5300AB5399 /* NetworkRouter.swift in Sources */,
+				04631A35274E441C00AB5399 /* VenueModel.xcdatamodeld in Sources */,
+				04631A17274DB87E00AB5399 /* ClosestVenuesResponse.swift in Sources */,
+				046319E5274D252A00AB5399 /* MentorMateIOSTaskApp.swift in Sources */,
+				04631A02274DA7D200AB5399 /* AppView.swift in Sources */,
+				04631A0E274DAE3E00AB5399 /* NetworkLayer.swift in Sources */,
+				04631A1D274DB90800AB5399 /* ClosestVenuesViewModel.swift in Sources */,
+				04631A3E274E704E00AB5399 /* MentorMateAppError.swift in Sources */,
+				046319FF274DA79800AB5399 /* AboutUs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		046319EE274D252E00AB5399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046319EF274D252E00AB5399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046319F1274D252E00AB5399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MentorMateIOSTask/Preview Content\"";
+				DEVELOPMENT_TEAM = K2TWK9B748;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MentorMateIOSTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmrsTests.test.MentorMateIOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046319F2274D252E00AB5399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MentorMateIOSTask/Preview Content\"";
+				DEVELOPMENT_TEAM = K2TWK9B748;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MentorMateIOSTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmrsTests.test.MentorMateIOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046319DC274D252A00AB5399 /* Build configuration list for PBXProject "MentorMateIOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046319EE274D252E00AB5399 /* Debug */,
+				046319EF274D252E00AB5399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046319F0274D252E00AB5399 /* Build configuration list for PBXNativeTarget "MentorMateIOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046319F1274D252E00AB5399 /* Debug */,
+				046319F2274D252E00AB5399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04631A33274E441C00AB5399 /* VenueModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04631A34274E441C00AB5399 /* Venue.xcdatamodel */,
+			);
+			currentVersion = 04631A34274E441C00AB5399 /* Venue.xcdatamodel */;
+			path = VenueModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046319D9274D252A00AB5399 /* Project object */;
+}
